@@ -14,7 +14,7 @@ Schreibt eure Namen auf die LED Matrix
 
 ## 2. Spiele ein kleines Lied 
 
-Baue eine kleine Melodie für den calliope
+Baue eine kleine Melodie für den Calliope
 
 ### Beispiel
 
@@ -35,3 +35,16 @@ Durch Berührung kannst du den Calliope steuern
 [HEX](03_touch/03_touch.hex)
 
 ![](03_touch/03_touch.png)
+
+## 4. Der Kompass im Calliope
+
+Der Calliope kann dir die Rechtung weisen. Dafür hat er einen Kompass eingebaut.
+Achtung! Der Kompass muss zunächst kalibiert werden damit er richtig funktionieren kann.
+
+### Beispiel
+
+[Code](04_compass/04_compass.js)
+
+[HEX](04_compass/04_compass.hex)
+
+![](04_compass/04_compass.png)
