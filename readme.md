@@ -52,7 +52,19 @@ Nutze die Möglichkeiten aus den beiden Aufgaben zuvor und baue ein Klavier, sod
 
 ![](04_piano/04_piano.png)
 
-### 5. Der Kompass im Calliope
+### 5. Lautstärke messen
+
+Ganz schön laut hier drin? Lass uns mit den Calliope die Lautstärke messen!
+
+#### Beispiel
+
+|Code|HEX|
+|-|-|
+|[05_noise/05_noise.js](05_noise/05_noise.js)|[05_noise/05_noise.hex](05_noise/05_noise.hex)|
+
+![](05_noise/05_noise.png)
+
+### 6. Der Kompass im Calliope
 
 Der Calliope kann dir die Rechtung weisen. Dafür hat er einen Kompass eingebaut.
 Achtung! Der Kompass muss zunächst kalibiert werden damit er richtig funktionieren kann.
@@ -61,9 +73,27 @@ Achtung! Der Kompass muss zunächst kalibiert werden damit er richtig funktionie
 
 |Code|HEX|
 |-|-|
-|[05_compass/05_compass.js](05_compass/05_compass.js)|[05_compass/05_compass.hex](05_compass/05_compass.hex)|
+|[06_compass/06_compass.js](06_compass/06_compass.js)|[06_compass/06_compass.hex](06_compass/06_compass.hex)|
 
-![](05_compass/05_compass.png)
+![](06_compass/06_compass.png)
+
+### 7. Helligkeit messen
+
+TODO: Der Calliope kann messen wie hell es ist.
+
+#### Beispiel
+
+|Code|HEX|
+|-|-|
+|[07_light/07_light.js](07_light/07_light.js)|[07_light/07_light.hex](07_light/07_light.hex)|
+
+![](07_light/07_light.png)
+
+## Weitere mögliche Aufgaben
+
+* Morsen
+* Helligkeitsmessung
+* Temperaturmessung
 
 ## Quellen
 
@@ -71,3 +101,4 @@ Achtung! Der Kompass muss zunächst kalibiert werden damit er richtig funktionie
 * [Microsoft MakeCode (PXT - Programming eXperience Toolkit) für Calliope Mini](https://makecode.calliope.cc/)
 * [Calliope Challenge-Karten der PH Zürich](https://phzh.ch/globalassets/phzh.ch/medienbildung/dokumente/calliope_challenge_cards.pdf)
 * [Schulmaterial von Cornelsen](https://calliope.cc/schulen/schulmaterial)
+* [Sender & Receiver Beispiel](https://boris.muehmer.net/2017/06/03/calliope-bluetooth-sender-receiver.html)
