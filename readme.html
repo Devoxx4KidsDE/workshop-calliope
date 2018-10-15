@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>readme.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: "Segoe WPC", "Segoe UI", "SFUIText-Light", "HelveticaNeue-Light", sans-serif, "Droid Sans Fallback";
+	font-size: 14px;
+	padding: 0 12px;
+	line-height: 22px;
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	color: #4080D0;
+	text-decoration: none;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+h1 code,
+h2 code,
+h3 code,
+h4 code,
+h5 code,
+h6 code {
+	font-size: inherit;
+	line-height: auto;
+}
+
+a:hover {
+	color: #4080D0;
+	text-decoration: underline;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left: 5px solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 14px;
+	line-height: 19px;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+.mac code {
+	font-size: 12px;
+	line-height: 18px;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+/** Theming */
+
+.vscode-light,
+.vscode-light pre code {
+	color: rgb(30, 30, 30);
+}
+
+.vscode-dark,
+.vscode-dark pre code {
+	color: #DDD;
+}
+
+.vscode-high-contrast,
+.vscode-high-contrast pre code {
+	color: white;
+}
+
+.vscode-light code {
+	color: #A31515;
+}
+
+.vscode-dark code {
+	color: #D7BA7D;
+}
+
+.vscode-light pre:not(.hljs),
+.vscode-light code > div {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre:not(.hljs),
+.vscode-dark code > div {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre:not(.hljs),
+.vscode-high-contrast code > div {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+.vscode-light blockquote,
+.vscode-dark blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.vscode-high-contrast blockquote {
+	background: transparent;
+	border-color: #fff;
+}
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family:  "Meiryo", "Segoe WPC", "Segoe UI", "SFUIText-Light", "HelveticaNeue-Light", sans-serif, "Droid Sans Fallback";
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+</head>
+<body>
+<h1 id="calliope-mini-workshop">Calliope Mini Workshop</h1>
+<p><img src="calliope_logo.png" alt="Calliope Mini Logo"></p>
+<p>Dieser Workshop ist für eine Dauer von etwa 90 Minuten zusammengestellt.</p>
+<p>Für den Workshop kann man entweder einen Online Editor verwenden: https://makecode.calliope.cc/
+Alternative kann man auch lokal einen Editor starten: https://github.com/calliope-mini/pxt-calliope-static</p>
+<p>Für den Einsatz des Editors sollte man mindestens einen Raspberry Pi 3 einsetzen, da der Raspberry Pi 3 sehr an seine Grenzen stößt.</p>
+<h2 id="aufgaben">Aufgaben</h2>
+<h3 id="1-hello-world">1. Hello World!</h3>
+<p>Schreibt eure Namen mit dem Calliope. Verwende dafür die LED Matrix!</p>
+<h4 id="beispiel">Beispiel</h4>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>HEX</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="01_hello-world/01_hello-world.js">01_hello-world/01_hello-world.js</a></td>
+<td><a href="01_hello-world/01_hello-world.hex">01_hello-world/01_hello-world.hex</a></td>
+</tr>
+</tbody>
+</table>
+<p><img src="01_hello-world/01_hello-world.png" alt=""></p>
+<h3 id="2-spiele-ein-kleines-lied">2. Spiele ein kleines Lied</h3>
+<p>Es ist auf dem Calliope ein kleiner Lautsprecher verbaut. Baue eine kleine Melodie für den Calliope.</p>
+<h4 id="beispiel">Beispiel</h4>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>HEX</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="02_music/02_music.js">02_music/02_music.js</a></td>
+<td><a href="02_music/02_music.hex">02_music/02_music.hex</a></td>
+</tr>
+</tbody>
+</table>
+<p><img src="02_music/02_music.png" alt=""></p>
+<h3 id="3-farbe-mit-den-fingern-ver%C3%A4ndern">3. Farbe mit den Fingern verändern</h3>
+<p>In dieser Aufgabe lernst du die <em>Sternspitzen (Pins)</em> des Calliope kennen.</p>
+<p>Durch Berührung kannst du den Calliope steuern. Ändere die Farbe der RGB-LED durch deine Berührung</p>
+<p><em>Hinweis:</em> Es muss immer auch gleichzeitig &quot;GND&quot; bzw. die mit &quot;-&quot; gekennzeichnete Sternspitze berührt werden!</p>
+<h4 id="beispiel">Beispiel</h4>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>HEX</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="03_touch/03_touch.js">03_touch/03_touch.js</a></td>
+<td><a href="03_touch/03_touch.hex">03_touch/03_touch.hex</a></td>
+</tr>
+</tbody>
+</table>
+<p><img src="03_touch/03_touch.png" alt=""></p>
+<h3 id="4-calliope-klavier">4. Calliope Klavier</h3>
+<p>Nutze die Möglichkeiten aus den beiden Aufgaben zuvor und baue ein Klavier, sodass beim Drücken einer Taste ein Ton erklinkt.</p>
+<h4 id="beispiel">Beispiel</h4>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>HEX</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="04_piano/04_piano.js">04_piano/04_piano.js</a></td>
+<td><a href="04_piano/04_piano.hex">04_piano/04_piano.hex</a></td>
+</tr>
+</tbody>
+</table>
+<p><img src="04_piano/04_piano.png" alt=""></p>
+<h3 id="5-lautst%C3%A4rke-messen">5. Lautstärke messen</h3>
+<p>Ganz schön laut hier drin? Lass uns mit den Calliope die Lautstärke messen!</p>
+<p>In dieser Aufgabe lernst du das erste Mal <em>Platzhalter</em> und den <em>Mikrofon</em>-Eingang kennen.</p>
+<h4 id="beispiel">Beispiel</h4>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>HEX</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="05_noise/05_noise.js">05_noise/05_noise.js</a></td>
+<td><a href="05_noise/05_noise.hex">05_noise/05_noise.hex</a></td>
+</tr>
+</tbody>
+</table>
+<p><img src="05_noise/05_noise.png" alt=""></p>
+<h3 id="6-lautst%C3%A4rke-ampel">6. Lautstärke-Ampel</h3>
+<p>Immer wenn es uns zu laut wird wollen wir das mit dem Calliope anzeigen können.</p>
+<p>In diesen Beispiel verwenden wir das erste Mal eine <em>Bedingung</em> (Wenn...Dann...Ansonsten...)</p>
+<h4 id="beispiel">Beispiel</h4>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>HEX</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="06_noise-light/06_noise-light.js">06_noise-light/06_noise-light.js</a></td>
+<td><a href="06_noise-light/06_noise-light.hex">06_noise-light/06_noise-light.hex</a></td>
+</tr>
+</tbody>
+</table>
+<p><img src="06_noise-light/06_noise-light.png" alt=""></p>
+<h3 id="7-der-kompass-im-calliope">7. Der Kompass im Calliope</h3>
+<p>Der Calliope kann dir die Rechtung weisen. Dafür hat er einen Kompass eingebaut.
+Was ist ein Kompass? Und wie funktioniert er? Was sind 0 bis 360°?</p>
+<p>Achtung! Der Kompass muss zunächst kalibiert werden damit er richtig funktionieren kann.</p>
+<h4 id="beispiel">Beispiel</h4>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>HEX</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="07_compass/07_compass.js">07_compass/07_compass.js</a></td>
+<td><a href="07_compass/07_compass.hex">07_compass/07_compass.hex</a></td>
+</tr>
+</tbody>
+</table>
+<p><img src="07_compass/07_compass.png" alt=""></p>
+<h3 id="8-geheime-nachrichten">8. Geheime Nachrichten</h3>
+<p>Der Calliope kann mit anderen Calliopes sprechen. Sende einer anderen Gruppe eine geheime Nachricht.</p>
+<h4 id="beispiel">Beispiel</h4>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>HEX</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="08_messages/sender.js">08_messages/sender.js</a></td>
+<td><a href="08_messages/sender.hex">08_messages/sender.hex</a></td>
+</tr>
+<tr>
+<td><a href="08_messages/receiver.js">08_messages/receiver.js</a></td>
+<td><a href="08_messages/receiver.hex">08_messages/receiver.hex</a></td>
+</tr>
+</tbody>
+</table>
+<h4 id="sender">Sender</h4>
+<p><img src="08_messages/sender.png" alt=""></p>
+<h4 id="receiver">Receiver</h4>
+<p><img src="08_messages/receiver.png" alt=""></p>
+<h2 id="quellen">Quellen</h2>
+<ul>
+<li><a href="https://calliope.cc">Calliope Mini Website</a></li>
+<li><a href="https://makecode.calliope.cc/">Microsoft MakeCode (PXT - Programming eXperience Toolkit) für Calliope Mini</a></li>
+<li><a href="https://phzh.ch/globalassets/phzh.ch/medienbildung/dokumente/calliope_challenge_cards.pdf">Calliope Challenge-Karten der PH Zürich</a></li>
+<li><a href="https://calliope.cc/schulen/schulmaterial">Schulmaterial von Cornelsen</a></li>
+<li><a href="https://boris.muehmer.net/2017/06/03/calliope-bluetooth-sender-receiver.html">Sender &amp; Receiver Beispiel</a></li>
+</ul>
+
+</body>
+</html>
