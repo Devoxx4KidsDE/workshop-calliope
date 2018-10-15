@@ -6,7 +6,8 @@ Dieser Workshop ist für eine Dauer von etwa 90 Minuten  zusammengestellt.
 
 ### 1. Hello World!
 
-Schreibt eure Namen auf die LED Matrix.
+Schreibt eure Namen mit dem Calliope. 
+Dafür könnt ihr die LED Matrix verwenden.
 
 #### Beispiel
 
@@ -81,9 +82,11 @@ In diesen Beispiel verwenden wir das erste Mal eine *Bedingung* (Wenn...Dann...A
 
 ![](06_noise-light/06_noise-light.png)
 
-### 6. Der Kompass im Calliope
+### 7. Der Kompass im Calliope
 
 Der Calliope kann dir die Rechtung weisen. Dafür hat er einen Kompass eingebaut.
+Was ist ein Kompass? Und wie funktioniert er? Was sind 0 bis 360°?
+
 Achtung! Der Kompass muss zunächst kalibiert werden damit er richtig funktionieren kann.
 
 #### Beispiel
