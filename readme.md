@@ -5,7 +5,7 @@
 Dieser Workshop ist für eine Dauer von etwa 90 Minuten zusammengestellt.
 
 Für den Workshop kann man entweder einen Online Editor verwenden: https://makecode.calliope.cc/
-Oder lokal einen Editor starten: https://github.com/calliope-mini/pxt-calliope-static
+Alternative kann man auch lokal einen Editor starten: https://github.com/calliope-mini/pxt-calliope-static
 
 Für den Einsatz des Editors sollte man mindestens einen Raspberry Pi 3 einsetzen, da der Raspberry Pi 3 sehr an seine Grenzen stößt.
 
