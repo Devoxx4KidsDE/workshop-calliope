@@ -1,9 +1,7 @@
-let maxPegel = 0
 let lautstärke = 0
 basic.forever(() => {
     lautstärke = pins.analogReadPin(AnalogPin.MIC)
-    maxPegel = 100
-    if (lautstärke < maxPegel) {
+    if (lautstärke < 500) {
         basic.showIcon(IconNames.Happy)
         basic.setLedColor(Colors.Green)
     } else {
