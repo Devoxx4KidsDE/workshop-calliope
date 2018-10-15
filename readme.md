@@ -97,23 +97,24 @@ Achtung! Der Kompass muss zunächst kalibiert werden damit er richtig funktionie
 
 ![](07_compass/07_compass.png)
 
-### 7. Helligkeit messen
+### 8. Geheime Nachrichten
 
-TODO: Der Calliope kann messen wie hell es ist.
+Der Calliope kann mit anderen Calliopes sprechen. Sende einer anderen Gruppe eine geheime Nachricht.
 
 #### Beispiel
 
 |Code|HEX|
 |-|-|
-|[07_light/07_light.js](07_light/07_light.js)|[07_light/07_light.hex](07_light/07_light.hex)|
+|[08_messages/sender.js](08_messages/sender.js)|[08_messages/sender.hex](08_messages/sender.hex)|
+|[08_messages/receiver.js](08_messages/receiver.js)|[08_messages/receiver.hex](08_messages/receiver.hex)|
 
-![](07_light/07_light.png)
+#### Sender
 
-## Weitere mögliche Aufgaben
+![](08_messages/sender.png)
 
-* Morsen
-* Helligkeitsmessung
-* Temperaturmessung
+#### Receiver
+
+![](08_messages/receiver.png)
 
 ## Quellen
 
