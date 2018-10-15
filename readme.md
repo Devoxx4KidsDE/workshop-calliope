@@ -8,7 +8,7 @@ Für den Workshop kann man entweder einen Online Editor verwenden: https://makec
 
 Alternativ kann man auch lokal einen Editor starten: https://github.com/calliope-mini/pxt-calliope-static
 
-Für den Einsatz des Editors sollte man mindestens einen Raspberry Pi 3 einsetzen, da der Raspberry Pi 3 sehr an seine Grenzen stößt.
+Für den Einsatz des Editors sollte man mindestens einen Raspberry Pi 3 einsetzen, da der Raspberry Pi 2 sehr an seine Grenzen stößt.
 
 ## Aufgaben
 
