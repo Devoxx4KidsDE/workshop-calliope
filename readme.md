@@ -1,6 +1,6 @@
-![Calliope Mini Logo](calliope_logo.png)
-
 # Calliope Mini Workshop
+
+![Calliope Mini Logo](calliope_logo.png)
 
 Dieser Workshop ist für eine Dauer von etwa 90 Minuten zusammengestellt.
 
