@@ -56,6 +56,8 @@ Nutze die Möglichkeiten aus den beiden Aufgaben zuvor und baue ein Klavier, sod
 
 Ganz schön laut hier drin? Lass uns mit den Calliope die Lautstärke messen!
 
+In dieser Aufgabe lernst du das erste Mal *Platzhalter* und den *Mikrofon*-Eingang kennen.
+
 #### Beispiel
 
 |Code|HEX|
@@ -63,6 +65,21 @@ Ganz schön laut hier drin? Lass uns mit den Calliope die Lautstärke messen!
 |[05_noise/05_noise.js](05_noise/05_noise.js)|[05_noise/05_noise.hex](05_noise/05_noise.hex)|
 
 ![](05_noise/05_noise.png)
+
+
+### 6. Lautstärke-Ampel
+
+Immer wenn es uns zu laut wird wollen wir das mit dem Calliope anzeigen können.
+
+In diesen Beispiel verwenden wir das erste Mal eine *Bedingung* (Wenn...Dann...Ansonsten...)
+
+#### Beispiel
+
+|Code|HEX|
+|-|-|
+|[06_noise-light/06_noise-light.js](06_noise-light/06_noise-light.js)|[06_noise-light/06_noise-light.hex](06_noise-light/06_noise-light.hex)|
+
+![](06_noise-light/06_noise-light.png)
 
 ### 6. Der Kompass im Calliope
 
@@ -73,9 +90,9 @@ Achtung! Der Kompass muss zunächst kalibiert werden damit er richtig funktionie
 
 |Code|HEX|
 |-|-|
-|[06_compass/06_compass.js](06_compass/06_compass.js)|[06_compass/06_compass.hex](06_compass/06_compass.hex)|
+|[07_compass/07_compass.js](07_compass/07_compass.js)|[07_compass/07_compass.hex](07_compass/07_compass.hex)|
 
-![](06_compass/06_compass.png)
+![](07_compass/07_compass.png)
 
 ### 7. Helligkeit messen
 
