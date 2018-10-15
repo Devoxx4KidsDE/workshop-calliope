@@ -1,4 +1,6 @@
-# Calliope Mini Workshop für Devoxx4Kids
+![Calliope Mini Logo](calliope_logo.png)
+
+# Calliope Mini Workshop
 
 Dieser Workshop ist für eine Dauer von etwa 90 Minuten zusammengestellt.
 
