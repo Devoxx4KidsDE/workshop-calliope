@@ -13,8 +13,7 @@ Für den Einsatz des Editors sollte man mindestens einen Raspberry Pi 3 einsetze
 
 ### 1. Hello World!
 
-Schreibt eure Namen mit dem Calliope. 
-Dafür könnt ihr die LED Matrix verwenden.
+Schreibt eure Namen mit dem Calliope. Verwende dafür die LED Matrix!
 
 #### Beispiel
 
@@ -26,7 +25,7 @@ Dafür könnt ihr die LED Matrix verwenden.
 
 ### 2. Spiele ein kleines Lied 
 
-Baue eine kleine Melodie für den Calliope
+Es ist auf dem Calliope ein kleiner Lautsprecher verbaut. Baue eine kleine Melodie für den Calliope.
 
 #### Beispiel
 
@@ -38,7 +37,11 @@ Baue eine kleine Melodie für den Calliope
 
 ### 3. Farbe mit den Fingern verändern
 
-Durch Berührung kannst du den Calliope steuern
+In dieser Aufgabe lernst du die *Sternspitzen (Pins)* des Calliope kennen.
+
+Durch Berührung kannst du den Calliope steuern. Ändere die Farbe der RGB-LED durch deine Berührung
+
+*Hinweis:* Es muss immer auch gleichzeitig "GND" bzw. die mit "-" gekennzeichnete Sternspitze berührt werden!
 
 #### Beispiel
 
@@ -50,7 +53,7 @@ Durch Berührung kannst du den Calliope steuern
 
 ### 4. Calliope Klavier
 
-Nutze die Möglichkeiten aus den beiden Aufgaben zuvor und baue ein Klavier, sodass wenn man eine Taste ein Ton erklingt.
+Nutze die Möglichkeiten aus den beiden Aufgaben zuvor und baue ein Klavier, sodass beim Drücken einer Taste ein Ton erklinkt.
 
 #### Beispiel
 
