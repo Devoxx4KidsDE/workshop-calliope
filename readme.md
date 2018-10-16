@@ -4,11 +4,11 @@
 
 Dieser Workshop ist für eine Dauer von etwa 90 Minuten zusammengestellt.
 
-Für den Workshop kann man entweder einen Online Editor verwenden: [https://makecode.calliope.cc/](https://makecode.calliope.cc/)
+Für den Workshop kann entweder eine Online Editor verwendet werden: [https://makecode.calliope.cc/](https://makecode.calliope.cc/)
 
-Alternativ kann man auch lokal einen Editor starten: [https://github.com/calliope-mini/pxt-calliope-static](https://github.com/calliope-mini/pxt-calliope-static)
+Alternativ kann auch lokal eine Editor gestartet werden (keine Internetverbindung notwendig): [https://github.com/calliope-mini/pxt-calliope-static](https://github.com/calliope-mini/pxt-calliope-static)
 
-Für den Einsatz des Editors sollte man mindestens einen Raspberry Pi 3 einsetzen, da der Raspberry Pi 2 sehr an seine Grenzen stößt.
+Für den Einsatz des Editors sollte man mindestens einen Raspberry Pi 3 nutzen (Performance).
 
 ## Aufgaben
 
@@ -26,7 +26,7 @@ Schreibt eure Namen mit dem Calliope. Verwende dafür die LED Matrix!
 
 ### 2. Spiele ein kleines Lied 
 
-Es ist auf dem Calliope ein kleiner Lautsprecher verbaut. Baue eine kleine Melodie für den Calliope.
+Es ist auf dem Calliope ein Lautsprecher verbaut. Baue eine kleine Melodie für den Calliope.
 
 #### Beispiel
 
@@ -40,7 +40,7 @@ Es ist auf dem Calliope ein kleiner Lautsprecher verbaut. Baue eine kleine Melod
 
 In dieser Aufgabe lernst du die *Sternspitzen (Pins)* des Calliope kennen.
 
-Durch Berührung kannst du den Calliope steuern. Ändere die Farbe der RGB-LED durch deine Berührung
+Durch Berührung kannst du den Calliope steuern. Ändere die Farbe der RGB-LED durch deine Berührung.
 
 *Hinweis:* Es muss immer auch gleichzeitig "GND" bzw. die mit "-" gekennzeichnete Sternspitze berührt werden!
 
@@ -54,7 +54,7 @@ Durch Berührung kannst du den Calliope steuern. Ändere die Farbe der RGB-LED d
 
 ### 4. Calliope Klavier
 
-Nutze die Möglichkeiten aus den beiden Aufgaben zuvor und baue ein Klavier, sodass beim Drücken einer Taste ein Ton erklinkt.
+Nutze die Möglichkeiten aus den beiden vorherigen Aufgaben und baue ein Klavier, sodass beim Drücken einer Taste ein Ton erklinkt.
 
 #### Beispiel
 
@@ -95,10 +95,10 @@ In diesen Beispiel verwenden wir das erste Mal eine *Bedingung* (Wenn...Dann...A
 
 ### 7. Der Kompass im Calliope
 
-Der Calliope kann dir die Rechtung weisen. Dafür hat er einen Kompass eingebaut.
+Der Calliope kann dir die Richtung weisen. Dafür hat er einen Kompass eingebaut.
 Was ist ein Kompass? Und wie funktioniert er? Was sind 0 bis 360°?
 
-Achtung! Der Kompass muss zunächst kalibiert werden damit er richtig funktionieren kann.
+Achtung! Der Kompass muss zunächst kalibriert werden damit er richtig funktionieren kann. Für die Kalibrierung zeigt der Calliope auf der LED-Matrix einen Kreis an den man durch Bewegung in alle Richtungen komplettieren muss.
 
 #### Beispiel
 
@@ -111,6 +111,8 @@ Achtung! Der Kompass muss zunächst kalibiert werden damit er richtig funktionie
 ### 8. Geheime Nachrichten
 
 Der Calliope kann mit anderen Calliopes sprechen. Sende einer anderen Gruppe eine geheime Nachricht.
+
+Wichtig ist, dass ihr zuvor eine gemeinsame *Gruppe* ausmacht! 
 
 #### Beispiel
 
