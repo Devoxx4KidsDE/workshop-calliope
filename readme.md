@@ -2,13 +2,22 @@
 
 ![Calliope Mini Logo](calliope_logo.png)
 
-Dieser Workshop ist für eine Dauer von etwa 90 Minuten zusammengestellt.
+In diesem Workshop werden spielerisch erste Erfahrungen mit einfachen Programmierkonzepten auf Basis des Calliope Minis erarbeitet. 
 
-Für den Workshop kann entweder eine Online Editor verwendet werden: [https://makecode.calliope.cc/](https://makecode.calliope.cc/)
+Der Workshop ist für eine Dauer von etwa 90 Minuten zusammengestellt. Es sind immer zwei Kinder und ein Mentor pro Calliope Mini gedacht.
 
-Alternativ kann auch lokal eine Editor gestartet werden (keine Internetverbindung notwendig): [https://github.com/calliope-mini/pxt-calliope-static](https://github.com/calliope-mini/pxt-calliope-static)
+## Voraussetzungen
 
-Für den Einsatz des Editors sollte man mindestens einen Raspberry Pi 3 nutzen (Performance).
+### Editor
+
+Es kann entweder eine Online Editor verwendet werden: [https://makecode.calliope.cc/](https://makecode.calliope.cc/)
+
+Alternativ ist auch möglich lokal einen Editor zu nutzen (keine Internetverbindung notwendig). Dafür muss zuvor folgendes Projekt aufgesetzt werden: [https://github.com/calliope-mini/pxt-calliope-static](https://github.com/calliope-mini/pxt-calliope-static)
+
+### Hardware
+
+* Ein Calliope Mini :-)
+* Für den Einsatz des Editors sollte man mindestens einen Raspberry Pi 3 nutzen (Performance).
 
 ## Aufgaben
 
