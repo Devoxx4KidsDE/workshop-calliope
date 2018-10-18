@@ -105,9 +105,50 @@ In diesen Beispiel verwenden wir das erste Mal eine *Bedingung* (Wenn...Dann...A
 ### 7. Der Kompass im Calliope
 
 Der Calliope kann dir die Richtung weisen. Dafür hat er einen Kompass eingebaut.
-Was ist ein Kompass? Und wie funktioniert er? Was sind 0 bis 360°?
+Was ist ein Kompass? Und wie funktioniert er? Was sind 1 bis 360°?
 
-Achtung! Der Kompass muss zunächst kalibriert werden damit er richtig funktionieren kann. Für die Kalibrierung zeigt der Calliope auf der LED-Matrix einen Kreis an den man durch Bewegung in alle Richtungen komplettieren muss.
+#### Analoges Signal
+
+Bei einem analogen Input liefert der Sensor Messdaten mit einem kontinuierlichen Wertebereich. Beim Kompass ist dies beispielsweise ein Wertebereich von 1° bis 360°. Ein analoger Input wie der Kompass kann also 360 verschiedene Werte messen. 
+
+![](07_compass/compass-example.svg)
+
+#### Achtung!
+
+Der Kompass muss zunächst kalibriert werden damit er richtig funktionieren kann. Für die Kalibrierung zeigt der Calliope auf der LED-Matrix einen Kreis an den man durch Bewegung in alle Richtungen komplettieren muss.
+
+#### Teil 1
+
+Zeige die Werte des Kompasses auf dem LED-Display an. Drehe den Calliope in jede Richtung und zeichne die Werte auf einem Blatt Papier auf.
+
+#### Teil 2
+
+Teile den Wertebereich von 0 bis 360° in acht Teile auf und Zeichne für jeden Wertebereich einen Pfeil in die jeweilige Richtung auf der LED-Matrix. 
+
+##### Rechenbeispiel
+
+Wenn der Kompass nach Norden zeigt muss der gemessene Wert zwischen 338 und 23° liegen. 
+
+Die Rechnung dahinter:
+Bei 0° zeigt der Kompass direkt nach Norden. Wenn der Wertbereich in acht Teile geteilt wird sind pro Teil 45° für den Wertebereich relevant.
+
+```
+0° - (45°/2) = -22,5° ~= 338°
+0° + (45°/2) =  22,5° ~= 23°
+```
+
+##### Wertebereiche
+
+|Richtung|Wertebereich|
+|-|-|
+| Nord | 338° bis 23° |
+| Nordost | 23° bis 68° |
+| Ost | 68° bis 113° |
+| Südost | 113° bis 158° |
+| Süd | 158° bis 203° |
+| Südwest | 203° bis 248° |
+| West | 248° bis 293° |
+| Nordwest | 293° bis 338° |
 
 #### Beispiel
 
