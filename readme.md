@@ -90,7 +90,7 @@ In dieser Aufgabe lernst du das erste Mal *Platzhalter* und den *Mikrofon*-Einga
 
 ### 6. Lautstärke-Ampel
 
-Immer wenn es uns zu laut wird wollen wir das mit dem Calliope anzeigen können.
+Immer wenn es uns zu laut wird wollen wir das mit dem Calliope anzeigen.
 
 In diesen Beispiel verwenden wir das erste Mal eine *Bedingung* (Wenn...Dann...Ansonsten...)
 
