@@ -164,20 +164,43 @@ Der Calliope kann mit anderen Calliopes sprechen. Sende einer anderen Gruppe ein
 
 Wichtig ist, dass ihr zuvor eine gemeinsame *Gruppe* ausmacht! 
 
-#### Beispiel
+#### Teil 1
+
+Sende/Empfange eine geheime Nachrricht
+
+##### Beispiel
 
 |Code|HEX|
 |-|-|
-|[08_messages/sender.js](08_messages/sender.js)|[08_messages/sender.hex](08_messages/sender.hex)|
-|[08_messages/receiver.js](08_messages/receiver.js)|[08_messages/receiver.hex](08_messages/receiver.hex)|
+|[08_messages/sender-01.js](08_messages/sender-01.js)|[08_messages/sender-01.hex](08_messages/sender-01.hex)|
+|[08_messages/receiver-01.js](08_messages/receiver-01.js)|[08_messages/receiver-01.hex](08_messages/receiver-01.hex)|
 
-#### Sender
+##### Sender
 
-![](08_messages/sender.png)
+![](08_messages/sender-01.png)
 
-#### Receiver
+##### Receiver
 
-![](08_messages/receiver.png)
+![](08_messages/receiver-01.png)
+
+#### Teil 2
+
+Sende/Empfange geheime Sensorwerte/Bilder
+
+##### Beispiel
+
+|Code|HEX|
+|-|-|
+|[08_messages/sender-02.js](08_messages/sender-02.js)|[08_messages/sender-02.hex](08_messages/sender-02.hex)|
+|[08_messages/receiver-02.js](08_messages/receiver-02.js)|[08_messages/receiver-02.hex](08_messages/receiver-02.hex)|
+
+##### Sender
+
+![](08_messages/sender-02.png)
+
+##### Receiver
+
+![](08_messages/receiver-02.png)
 
 ## Quellen
 
