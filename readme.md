@@ -63,7 +63,7 @@ Durch Berührung kannst du den Calliope steuern. Ändere die Farbe der RGB-LED d
 
 ### 4. Calliope Klavier
 
-Nutze die Möglichkeiten aus den beiden vorherigen Aufgaben und baue ein Klavier, sodass beim Drücken einer Taste ein Ton erklinkt.
+Nutze die Möglichkeiten aus den beiden vorherigen Aufgaben und baue ein Klavier, sodass beim Drücken einer Taste ein Ton erklingt.
 
 #### Beispiel
 
@@ -166,7 +166,7 @@ Wichtig ist, dass ihr zuvor eine gemeinsame *Gruppe* ausmacht!
 
 #### Teil 1
 
-Sende/Empfange eine geheime Nachrricht
+Sende/Empfange eine geheime Nachricht.
 
 ##### Beispiel
 
